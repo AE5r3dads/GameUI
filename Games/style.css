@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    transition: 0.6s;
+}
+
+
+/* hover */
+.catarygames:hover{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #fff;
+    color: black;
+}
+
+.cataryapps:hover{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    font-family: sans-serif;
+    background-color: #fff;
+    text-align: center;
+    color: black;
+}
+
+.cataryprog:hover{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+}
+
+.searchbar:hover{
+    border: 0.6s solid white;
+}
+
+
+.searic:hover{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+}
+
+.fortnite:hover{
+    margin-left: 30px;
+    transition: 0.6s;
+}
+
+.minecraft:hover{
+    margin-left: 30px;
+    transition: 0.6s;
+}
+.stray:hover{
+    margin-left: 30px;
+    transition: 0.6s;
+}
+/* end hover */
+
+body{
+    font-family: cursive;
+    background-color: #202020;
+}
+
+.catarygames{
+    margin-left: 20%;
+    text-decoration: none;
+    border: 0.6px solid white;
+    color: white;
+}
+
+.cataryapps{
+    margin-left: 18%;
+    text-decoration: none;
+    border: 0.6px solid white;
+    color: white;
+}
+
+.cataryprog{
+    margin-left: 18%;
+    text-decoration: none;
+    border: 0.6px solid white;
+    color: white;
+}
+
+
+.searchbar {
+    color: black;
+    font-size: 26px;
+    width: 477px;
+    height: 40px;
+    border-radius: 300px;
+    margin-top: 50px;
+
+}
+
+.searic{
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    margin-left: 477px;
+    cursor: pointer;
+}
+
+.fortnite{
+    margin-top: 30px;
+}
+
+.stray {
+    margin-top: 30px;
+}
+
+
+
+::placeholder{
+    color: #222;
+    text-align: center;
+}
+
+/* start scrollbar */
+
+::-webkit-scrollbar {
+    width: 1.1rem;
+   }
+   
+  ::-webkit-scrollbar-track {
+    border: 7px solid #232943;
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    }
+   
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #9e4673, #3d4a59);
+    border-radius: 1rem;
+  }
+   
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(270deg, #9e4673, #3d4a59, #9e4673);
+  }
+   
+  /* for Firefox */
+   html {scrollbar-color: #9e4673 #3d4a59;} 
+
+   /* end scrollbar */
